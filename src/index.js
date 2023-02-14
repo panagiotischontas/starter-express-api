@@ -6,7 +6,7 @@ import cors from 'cors';
 
 const PORT = process.env.PORT || 8080;
 
-const uri =  "mongodb+srv://danut:danut@database.z8rygn4.mongodb.net/?retryWrites=true&w=majority";
+const uri =  "mongodb+srv://test:test@database.z8rygn4.mongodb.net/?retryWrites=true&w=majority";
 
 const connect = async () => {
   try {
